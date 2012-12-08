@@ -1,0 +1,5 @@
+cd --
+cd .ssh
+rm id_rsa*
+cd backup_old_id_rsa/
+cp id_rsa* ~/.ssh
